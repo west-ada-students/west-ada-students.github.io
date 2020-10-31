@@ -6,12 +6,16 @@ html, body {
 nav {
     display: flex;
     flex-direction: row-reverse;
+<<<<<<< HEAD
     background-color: maroon;
     margin: 0;
     padding: 0 5vw;
 }
 
 .nav-item {
+=======
+    background-color: #800000;
+>>>>>>> bd182c6c46288b4bba487bd8f7a3c01ce0fe12a0
     padding: 1.5em 3em;
     transition: 0.5s;
 }
@@ -22,7 +26,12 @@ nav {
 }
 
 .nav-link {
+<<<<<<< HEAD
     color: #ddd;
+=======
+    padding: 1em 2em;
+    color: #DDD;
+>>>>>>> bd182c6c46288b4bba487bd8f7a3c01ce0fe12a0
     font-weight: bold;
     text-decoration: none;
     font-size: 1.25em;
@@ -42,4 +51,8 @@ nav {
 .banner-img {
     width: 100vw;
     display: block;
+}
+
+.nav-link:hover {
+    color: #FFF;
 }
