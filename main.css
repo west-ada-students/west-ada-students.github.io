@@ -7,12 +7,39 @@ nav {
     display: flex;
     flex-direction: row-reverse;
     background-color: maroon;
+    margin: 0;
+    padding: 0 5vw;
+}
+
+.nav-item {
     padding: 1.5em 3em;
+    transition: 0.5s;
+}
+
+.nav-item:hover {
+    background-color: #640000;
+    transition: 0.25s;
 }
 
 .nav-link {
-    padding: 1em 2em;
-    color: white;
+    color: #ddd;
     font-weight: bold;
     text-decoration: none;
+    font-size: 1.25em;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: white;
+    transition: 0.25s;
+}
+
+.banner-img-wrap {
+    width: 100vw;
+    display: block;
+}
+
+.banner-img {
+    width: 100vw;
+    display: block;
 }
