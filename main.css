@@ -6,13 +6,17 @@ html, body {
 nav {
     display: flex;
     flex-direction: row-reverse;
-    background-color: maroon;
+    background-color: #800000;
     padding: 1.5em 3em;
 }
 
 .nav-link {
     padding: 1em 2em;
-    color: white;
+    color: #DDD;
     font-weight: bold;
     text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #FFF;
 }
