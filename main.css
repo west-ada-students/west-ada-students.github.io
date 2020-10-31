@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+    background-image: url(./images/heroBannerHome-8.png);
 }
 
 nav {
@@ -35,11 +36,6 @@ nav {
 }
 
 .banner-img-wrap {
-    width: 100%;
-    display: block;
-}
-
-.banner-img {
     width: 100%;
     display: block;
 }
