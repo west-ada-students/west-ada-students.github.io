@@ -1,3 +1,18 @@
+html, body {
+    margin: 0;
+    font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+}
+
 nav {
     display: flex;
+    flex-direction: row-reverse;
+    background-color: maroon;
+    padding: 1.5em 3em;
+}
+
+.nav-link {
+    padding: 1em 2em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
