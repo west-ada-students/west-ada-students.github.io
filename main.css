@@ -1,3 +1,86 @@
+html, body {
+    margin: 0;
+    font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+    background-image: url(./images/heroBannerHome-8.png);
+    background-size: cover;
+}
+
 nav {
+    background-color: maroon;
+}
+
+.nav-item {
+    padding: 1.5em 3em;
+    transition: 0.5s;
+}
+
+.nav-item:hover {
+    background-color: #640000;
+    transition: 0.25s;
+}
+
+.nav-link {
+    color: #ddd;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.25em;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: white;
+    transition: 0.25s;
+}
+
+.banner-img-wrap {
+    width: 100%;
+    display: block;
+}
+
+.nav-link:hover {
+    color: #FFF;
+}
+
+footer {
     display: flex;
+    flex-direction: row-reverse;
+    background-color: maroon;
+    height: auto;
+    margin: 0;
+    padding: 0.5em 1vw;
+}
+
+.foot-item {
+    height: auto;
+    margin: 0 1em;
+}
+
+.foot-item > a {
+    height: auto;
+}
+
+.foot-img {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.foot-img:hover {
+    opacity: 1;
+    transition: 0.25s;
+}
+
+#main {
+    height: 811px;
+}
+
+.nav-logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 10px;
+} 
+#nav-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
 }

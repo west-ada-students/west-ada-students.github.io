@@ -3,21 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="./main.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="icon" href="./images/logo.png" />
     <title>Westada Student Union</title>
 </head>
 <body>
     <nav>
-        <div class="nav-item">
-            <a href="/views/about.html">About</a>
-        </div>
-        <div class="nav-item">
-            <a href="/views/take_action.html">Take Action</a>
-        </div>
-        <div class="nav-item">
-            <a href="/views/contact.html">Contact</a>
+        <a href="./index.html"><img class="nav-logo" src="./images/logo.png"></a>
+        <div id="nav-wrapper">
+            <div class="nav-item">
+                <a class="nav-link" href="/views/contact.html">Contact</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link" href="/views/take_action.html">Take Action</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link" href="/views/about.html">About</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+            </div>
         </div>
     </nav>
-    <script type="text/javascript" src="./script.js"></script>
+    <main id="main">
+    </main>
+    <footer>
+        <div class="foot-item">
+            <a href="https://discord.gg/54UFafbUZM" target="_blank">
+                <img class="foot-img" src="./images/discord-logo.png" style="padding: 7.5px;" height="60px">
+            </a>
+        </div>
+        <div class="foot-item">
+            <a href="https://www.instagram.com/westada.student.strike/" target="_blank">
+                <img class="foot-img" src="./images/instagram-logo.png" height="75px">
+            </a>
+        </div>
+    </footer>
+    <script type="text/javascript" src="./main.js"></script>
 </body>
 </html>
