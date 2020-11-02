@@ -2,14 +2,11 @@ html, body {
     margin: 0;
     font-family: "Eras ITC", "Eras Light ITC", sans-serif;
     background-image: url(./images/heroBannerHome-8.png);
+    background-size: cover;
 }
 
 nav {
-    display: flex;
-    flex-direction: row-reverse;
     background-color: maroon;
-    margin: 0;
-    padding: 0 5vw;
 }
 
 .nav-item {
@@ -50,7 +47,7 @@ footer {
     background-color: maroon;
     height: auto;
     margin: 0;
-    padding: 0.5em 5vw;
+    padding: 0.5em 1vw;
 }
 
 .foot-item {
@@ -70,4 +67,20 @@ footer {
 .foot-img:hover {
     opacity: 1;
     transition: 0.25s;
+}
+
+#main {
+    height: 811px;
+}
+
+.nav-logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 10px;
+} 
+#nav-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
 }
