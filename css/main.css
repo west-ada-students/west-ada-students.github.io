@@ -1,0 +1,17 @@
+body {
+	margin: 30px;
+}
+
+footer {
+	border-top: 2px solid black;
+	font-weight: bold;
+}
+
+nav {
+    display: flex;
+	text-align: center;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
